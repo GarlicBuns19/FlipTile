@@ -49,10 +49,15 @@ the rotate() function from transform
     -moz-backface-visibility: hidden;
 }
 #front{
-    background-color: darkgoldenrod;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/586/603/742/minimalism-4k-for-mac-desktop-wallpaper-preview.jpg);
+}
+#front,h2,p{
+    color: white;
 }
 #back{
-    background-color: rgb(79, 68, 47);
-    color: white;
+    background-image: url(https://images.unsplash.com/photo-1491466424936-e304919aada7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80);
     transform: rotateY(180deg);
+}
+#back,h2,p{
+    color: white;
 }
